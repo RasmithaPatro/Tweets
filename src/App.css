@@ -1,0 +1,35 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.accordian{
+  width: 700px;
+}
+
+.item{
+  background: #f0ebe1;
+  margin-bottom: 5px;
+  max-width: 700px;
+  margin-left: 20px;
+  padding: 30px;
+}
+.title{
+  color: #85662b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.content{
+  color: #8b7f75;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.content.show{
+  height: auto;
+  max-height: 9999px;
+}
